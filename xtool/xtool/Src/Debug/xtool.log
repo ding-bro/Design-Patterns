@@ -1,0 +1,11 @@
+﻿  CDesignMode.cpp
+E:\C++\Design Patterns\xtool\xtool\CDesignMode.h(5,23): error C2057: 应输入常量表达式
+  CFactoryMode.cpp
+E:\C++\Design Patterns\xtool\xtool\CDesignMode.h(5,23): error C2057: 应输入常量表达式
+  CStrategyMode.cpp
+E:\C++\Design Patterns\xtool\xtool\CDesignMode.h(5,23): error C2057: 应输入常量表达式
+  CTemplateMethod.cpp
+E:\C++\Design Patterns\xtool\xtool\CDesignMode.h(5,23): error C2057: 应输入常量表达式
+  xtool.cpp
+E:\C++\Design Patterns\xtool\xtool\CDesignMode.h(5,23): error C2057: 应输入常量表达式
+  正在生成代码...

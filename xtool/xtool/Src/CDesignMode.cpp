@@ -1,0 +1,2 @@
+#include "CDesignMode.h"
+

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Strategy Mode">
+      <UniqueIdentifier>{caee4be0-d822-4950-97c7-abb35936db96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Template Method">
+      <UniqueIdentifier>{3a0648e4-954c-4199-ba9e-32b723aa4838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory Mode">
+      <UniqueIdentifier>{31aa1cc1-c48c-42ed-9b66-fb69b9145ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype Mode">
+      <UniqueIdentifier>{e2c56572-64d1-4ad8-ba9f-d76d16a22dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton Mode">
+      <UniqueIdentifier>{3d40d831-5fa2-4873-af2d-558c312ead94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder Mode">
+      <UniqueIdentifier>{b838d01e-dd52-47f1-81c2-92f112a55015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AbstractFactory Mode">
+      <UniqueIdentifier>{b18b003a-ee01-4096-b116-e15e7b6ebbde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xtool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AbstractFactory Mode\CAbstractFactory.cpp">
+      <Filter>AbstractFactory Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AbstractFactory Mode\CDataLibrary.cpp">
+      <Filter>AbstractFactory Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Factory Mode\CFactoryMode.cpp">
+      <Filter>Factory Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Factory Mode\CFileSpliter.cpp">
+      <Filter>Factory Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Factory Mode\CMainFormFactory.cpp">
+      <Filter>Factory Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Builder Mode\CBuilderMode.cpp">
+      <Filter>Builder Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Builder Mode\CHouse.cpp">
+      <Filter>Builder Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Prototype Mode\CFileSpliterPrototype.cpp">
+      <Filter>Prototype Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Prototype Mode\CMainFormPrototype.cpp">
+      <Filter>Prototype Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Prototype Mode\CPrototypeMode.cpp">
+      <Filter>Prototype Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Singleton Mode\CSingleton.cpp">
+      <Filter>Singleton Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Singleton Mode\CSingletonMode.cpp">
+      <Filter>Singleton Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Strategy Mode\CSaleOrder.cpp">
+      <Filter>Strategy Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Strategy Mode\CStrategyMode.cpp">
+      <Filter>Strategy Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Template Method\CApplication.cpp">
+      <Filter>Template Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Template Method\CDataBase.cpp">
+      <Filter>Template Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Template Method\CTemplateMethod.cpp">
+      <Filter>Template Method</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\CDesignMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\AbstractFactory Mode\CAbstractFactory.h">
+      <Filter>AbstractFactory Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\AbstractFactory Mode\CDataLibrary.h">
+      <Filter>AbstractFactory Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Factory Mode\CFactoryMode.h">
+      <Filter>Factory Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Factory Mode\CFileSpliter.h">
+      <Filter>Factory Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Factory Mode\CMainFormFactory.h">
+      <Filter>Factory Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Builder Mode\CBuilderMode.h">
+      <Filter>Builder Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Builder Mode\CHouse.h">
+      <Filter>Builder Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Prototype Mode\CFileSpliterPrototype.h">
+      <Filter>Prototype Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Prototype Mode\CMainFormPrototype.h">
+      <Filter>Prototype Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Prototype Mode\CPrototypeMode.h">
+      <Filter>Prototype Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Singleton Mode\CSingleton.h">
+      <Filter>Singleton Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Singleton Mode\CSingletonMode.h">
+      <Filter>Singleton Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Strategy Mode\CSaleOrder.h">
+      <Filter>Strategy Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Strategy Mode\CStrategyMode.h">
+      <Filter>Strategy Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Template Method\CApplication.h">
+      <Filter>Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Template Method\CDataBase.h">
+      <Filter>Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Template Method\CTemplateMethod.h">
+      <Filter>Template Method</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\CDesignMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
